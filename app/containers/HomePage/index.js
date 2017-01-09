@@ -9,16 +9,24 @@
  * the linting exception.
  */
 
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import React from 'react'
+import Dropdown from 'react-ions/lib/Dropdown'
+import Button from 'react-ions/lib/Button'
+import Badge from 'react-ions/lib/Badge'
 
-export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
+export default class HomePage extends React.Component {
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
-    );
+      <div>
+        <h1>React&#123;ions&#125;</h1>
+        <p>Quick start page</p>
+
+        <Button>Basic Button</Button>
+
+        <Dropdown trigger={<Button>Dropdown</Button>}>
+          <Badge icon='icon-check-1-1' theme='success' /><span>Dropdown content here.</span>
+        </Dropdown>
+      </div>
+    )
   }
 }
