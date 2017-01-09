@@ -5,6 +5,6 @@
 2. Run `USE_YARN=false npm install` to install dependencies and clean the git repo.
 3. Run `npm start` and hit `http://localhost:3000`
 
-This was originally cloned from [https://github.com/mxstbr/react-boilerplate](React Boilerplate), and is only intended to be a demo of React{ions}.
+This was originally cloned from https://github.com/mxstbr/react-boilerplate, and is only intended to be a demo of React{ions}.
 
-Feel free to use this as a starting point for your own application, however please refer to [https://github.com/mxstbr/react-boilerplate](the original site) for documentation and support.
+Feel free to use this as a starting point for your own application, however please refer to https://github.com/mxstbr/react-boilerplate for documentation and support.
