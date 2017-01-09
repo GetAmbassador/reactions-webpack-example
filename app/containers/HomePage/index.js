@@ -24,7 +24,7 @@ export default class HomePage extends React.Component {
         <Button>Basic Button</Button>
 
         <Dropdown trigger={<Button>Dropdown</Button>}>
-          <Badge icon='icon-check-1-1' theme='success' /><span>Dropdown content here.</span>
+          <Badge icon='icon-check-1-1' theme='success' /><p>Dropdown content here.</p>
         </Dropdown>
       </div>
     )

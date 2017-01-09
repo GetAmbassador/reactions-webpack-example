@@ -25,7 +25,7 @@ module.exports = (options) => ({
       // So, no need for ExtractTextPlugin here.
       test: /\.(css|scss)$/,
       include: /node_modules/,
-      loaders: ['style-loader', 'css?modules', 'sass'],
+      loaders: ['style-loader', 'css?modules&localIdentName=[local]-[hash:base64:5]', 'sass'],
     }, {
       test: /\.(eot|svg|ttf|woff|woff2)$/,
       loader: 'file-loader',
