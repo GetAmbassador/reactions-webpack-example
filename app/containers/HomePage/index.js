@@ -10,9 +10,8 @@
  */
 
 import React from 'react'
-import Dropdown from 'react-ions/lib/Dropdown'
-import Button from 'react-ions/lib/Button'
-import Badge from 'react-ions/lib/Badge'
+import Dropdown from 'react-ions/lib/components/Dropdown'
+import Button from 'react-ions/lib/components/Button'
 
 export default class HomePage extends React.Component {
   render() {
@@ -23,9 +22,10 @@ export default class HomePage extends React.Component {
 
         <Button>Basic Button</Button>
 
-        <Dropdown trigger={<Button>Dropdown</Button>}>
-          <Badge icon='icon-check-1-1' theme='success' /><p>Dropdown content here.</p>
+        <Dropdown trigger={<Button optClass='secondary'>Dropdown</Button>}>
+          <span>Dropdown content here.</span>
         </Dropdown>
+
       </div>
     )
   }
